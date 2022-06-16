@@ -115,3 +115,11 @@ La otra persona debería ejecutar el comando:
 pip install -r requirements.txt
 
 Así las dependencias se instalan auitomáticamente.
+
+# Listas y diccionarios anidados
+
+Nos enfocamos en otra carpeta para ignorar el ejemplo que el profesor dio en el curso y creamos un archivo para ocultar la carpeta venv que no les sirve a otros desarrolladores a la hora de compartir su código.
+
+Dentro de la carpeta donde trabajemos y tengamos el ambiente, creamos un archivo llamado ".gitignore" que tendrá una línea de código para ignorar la carpeta venv: *venv/*
+
+Hay un archivo creado en el repositorio referido como "lists_and_dicts.py" donde anotamos el código de esta clase.
