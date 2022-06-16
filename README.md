@@ -20,3 +20,20 @@ El Zen de Python se compone por los principios para escribir tu código de maner
 * A pesar de que nunca es muchas veces mejor que ahora mismo: Si por hacer las cosas ya y tenemos poco tiempo, si es mejor dejarlo para después y no hacerlo apurado y mal.
 * Si la implementación es díficil de explicar, es una mala idea, y si es fácil de explicar, es una buena idea: Si somos capaces de explicar nuestra implementación a otros desarrolladores paso a paso, es una buena idea. En cambio si no podemos hacerlo, significa que ni nosotros entendemos la implementación y deberíamos repensar nuestra forma de encarar la solución.
 * Los espacios de nombres son una gran idea, ¡Tengamos más de esos! (namespaces): Es el nombre que se ha indicado luego de la palabra import, es decir la ruta (namespace) del módulo. (Lo veremos a profundidad más adelante).
+
+# ¿Qué es la documentación?
+
+La documentación es una pieza de información que nos explica cómo funciona un lenguaje, cuáles son las pequeñas partes que hacen que todo funcione como tiene que hacerlo.
+
+## 10 beneficios de leer la documentación de Python
+
+Consultar informacion clara y directa
+Tener ejemplo de los mismos desarrolladores
+Referencias de todas las caracteristicas y funcionalidades en un solo lugar
+Conocer los nuevos features de nuevas actualizaciones
+Conocer el modo de empleo de versiones anteriores
+Aprender a manejar correctamente las herramientas
+Que contienen los modulos integrados dentro de python
+Como manejar los modulos
+Manejo y uso de frameworks
+Ser autodidacta
