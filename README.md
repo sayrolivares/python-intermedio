@@ -123,3 +123,15 @@ Nos enfocamos en otra carpeta para ignorar el ejemplo que el profesor dio en el 
 Dentro de la carpeta donde trabajemos y tengamos el ambiente, creamos un archivo llamado ".gitignore" que tendrá una línea de código para ignorar la carpeta venv: *venv/*
 
 Hay un archivo creado en el repositorio referido como "lists_and_dicts.py" donde anotamos el código de esta clase.
+
+# List comprehensions
+
+En el archivo list_comprehensions.py está el código utilizado para entender este concepto importante. El código largo está comentado y la lista está justo debajo. Aquí nos ahorramos 3 líneas de código con list comprehensions.
+
+List comprehensions formula: [element for element in iterable if condition]
+
+Explicación de la fórmula anterior:
+
+![alt text](https://static.platzi.com/media/user_upload/List_comprehensions1-bacd6262-4bc3-40c8-8c71-3da952e30b41.jpg "Fórmula explicada")
+
+Para cada elemento en el iterable yo voy a guardar ese elemento solo si se cumple la condición.
