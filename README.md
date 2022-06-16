@@ -53,3 +53,27 @@ Con entorno virtual:
 
 ![alt text](https://static.platzi.com/media/user_upload/Screenshot%20from%202021-04-06%2015-10-22-1804c0b6-79d2-40bd-aced-f859f86c5309.jpg "Representación de una computadora con entorno virtual ejecutando un proyecto en varios entornos")
 
+# El primer paso profesional: creación de un entorno virtual
+
+## Creando un ambiente virtual con VENV
+
+Creación de ambiente Virtual:
+
+*python -m venv "nombre_del_ambiente"* (sin comillas)
+
+Usualmente el nombre del ambiente virtual es venv.
+
+## Activación del ambiente virtual:
+
+Unix o MacOS:
+source venv/bin/activate
+
+## Desactivar el ambiente virtual:
+
+deactivate
+
+## Crear un alias en linux/mac:
+
+alias nombre-alias="comando"
+
+*alias avenv=“source venv/bin/activate”* para activar el ambiente virtual
