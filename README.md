@@ -37,3 +37,19 @@ Que contienen los modulos integrados dentro de python
 Como manejar los modulos
 Manejo y uso de frameworks
 Ser autodidacta
+
+# ¿Qué es un entorno virtual?
+
+Un entorno virtual es un entorno Python en el que el intérprete Python, las bibliotecas y los scripts instalados en él están aislados de los instalados en otros entornos virtuales, y (por defecto) cualquier biblioteca instalada en un «sistema» Python, es decir, uno que esté instalado como parte de tu sistema operativo.
+Un entorno virtual es un árbol de directorios que contiene archivos ejecutables de Python y otros archivos que indican que es un entorno virtual.
+
+Sería una catástrofe tener que instalar y actualizar módulos para cada proyecto cuidando que ninguno se rompa, porque fácilmente podrías actualizar un módulo que, para un proyecto funcione, pero para otro deje de funcionar, es por eso que se crea el concepto de entornos virtuales.
+
+Sin entorno virtual:
+
+![alt text](https://static.platzi.com/media/user_upload/Screenshot%20from%202021-04-06%2015-17-31-98f9a6fa-3e6c-4353-9644-31a4e7208737.jpg "Representación de una computadora sin entorno virtual ejecutando varios proyectos")
+
+Con entorno virtual:
+
+![alt text](https://static.platzi.com/media/user_upload/Screenshot%20from%202021-04-06%2015-10-22-1804c0b6-79d2-40bd-aced-f859f86c5309.jpg "Representación de una computadora con entorno virtual ejecutando un proyecto en varios entornos")
+
