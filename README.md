@@ -77,3 +77,41 @@ deactivate
 alias nombre-alias="comando"
 
 *alias avenv=“source venv/bin/activate”* para activar el ambiente virtual
+
+# Instalación de dependencias con pip
+
+PIP es Package Installer for Python, este viene de fábrica, esto es un módulo que está pensado para instalar otros módulos que no están dentro de Python.
+
+PIP es una herramienta que va acompañada al entorno virtual y no deberíamos usarla fuera del mismo.
+
+## Módulos populares:
+
+* Requests
+* BeautifulSoup4
+* Pandas
+* Numpy
+* Pytest
+
+## Instalando módulos
+
+Una vez en el entorno virtual (ya activado), cuando instalemos dependencias o módulos con PIP no vamos a tener problemas porque estos módulos se van a instalar en este proyecto en particular y no en toda la computadora.
+
+*pip freeze*: muestra los módulos que tienes instalados en determinado entorno virtual.
+
+*pip install pandas*: instalamos pandas, un módulo para ciencias de datos.
+
+*Una vez lo instalemos, un mensaje de advertencia podría aparecer diciendo que pip está desactualizado. Simplemente copiamos el mensaje desde la ocmilla ' hasta la otra ' y pegamos en la terminal, y voilá.*
+
+## Para compartir estas dependencias con alguien más para que pueda correr nuestro proyecto
+
+Colocamos:
+
+pip freeze > requirements.txt
+
+Este archivo guarda tus dependencias para poder compartirlo con otras personas
+
+La otra persona debería ejecutar el comando:
+
+pip install -r requirements.txt
+
+Así las dependencias se instalan auitomáticamente.
